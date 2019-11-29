@@ -10,7 +10,11 @@ border: 1px rgb(202, 199, 199) solid;
 }
 .overdueTask{
   position: absolute;
-background-image: url('https://github.com/sivaramp1991/react-dwaiwv/blob/master/images/clock-icon.jpg')
+  width:60px;
+  height:60px;
+  background-size: contain;
+  background-repeat: no-repeat;
+background-image: url('https://github.com/sivaramp1991/react-dwaiwv/blob/master/images/clock-icon.jpg?raw=true');
 }
 
 .taskbreak5{
