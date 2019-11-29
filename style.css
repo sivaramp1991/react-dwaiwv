@@ -5,20 +5,61 @@ h1, p {
 .overviewContainer{
 width:400px;
 height:250px;
-border: 1px rgb(202, 198, 198) solid;
+border: 1px rgb(202, 199, 199) solid;
+
+}
+.overdueTask{
+  position: absolute;
+background-image: url('https://github.com/sivaramp1991/react-dwaiwv/blob/master/images/clock-icon.jpg')
 }
 
 .taskbreak5{
-  position: absolute;
 width: 400px;
 height: 1px; 
-background: rgb(202, 198, 198);
 top: 200px;
 }
+.seperate{
+  position: absolute;
+  background: rgb(202, 199, 199);
+}
 .taskbreak1{
-position: absolute;
 width: 1px;
-height: 192px; 
-background: rgb(202, 198, 198);
+height: 85px; 
 left: 165px;
+}
+.taskbreak2{
+width: 16px;
+    height: 1px;
+    top: 98px;
+    left: 163px;
+    transform: rotate(45deg);
+}
+.taskbreak3{
+    width: 16px;
+    height: 1px;
+    top: 109px;
+    left: 163px;
+    transform: rotate(-45deg);
+}
+.taskbreak4{
+width: 1px;
+height: 86px;
+top:115px;
+left: 165px;
+}
+
+.allTaskCount{
+  position: absolute;
+  top:50px;
+  left: 55px;
+  font-size: 60px;
+  font-family: Times New Roman;
+  color: rgb(0, 0, 0);
+}
+.allTask{
+  position: absolute;
+  top:120px;
+  left: 50px;
+  font-size: 30px;
+  color: grey;
 }
