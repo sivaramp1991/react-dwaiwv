@@ -16,12 +16,27 @@ background-repeat: no-repeat;
 .overdueTask{
   width:30px;
   height:30px;
-background-image: url('https://github.com/sivaramp1991/react-dwaiwv/blob/master/images/taskoverdueclock-icon.jpg?raw=true');
+background-image: url('https://github.com/sivaramp1991/react-dwaiwv/blob/master/images/taskassigned-icon.jpg?raw=true');
 }
 .timeEstimated{
+  top: 215px;
+  left: 50px;
   width:30px;
   height:30px;
 background-image: url('https://github.com/sivaramp1991/react-dwaiwv/blob/master/images/clock-outline.png?raw=true');
+}
+
+.label1{
+  left: 96px;
+    position: fixed;
+    font-size: 25px;
+    color: grey
+}
+.label2{
+  left: 290px;
+    position: fixed;
+    font-size: 25px;
+    color: orange
 }
 
 .taskbreak5{

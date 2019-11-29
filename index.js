@@ -36,7 +36,9 @@ class App extends Component {
 
       <div className='taskStatus'>
       <span className='overdueTask task-icon'></span>
-      <span className='timeEstimated task-icon'></span>
+      <span className='timeEstimated task-icon'>
+      <label className='label1'>Estimated Time</label>
+      <label className='label2'>3 day(s)</label></span>
       </div>
       
         
