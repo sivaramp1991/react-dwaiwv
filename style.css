@@ -10,13 +10,13 @@ border: 1px rgb(202, 199, 199) solid;
 }
 .task-icon{
 position: absolute;
-background-size: contain;
+background-size: cover;
 background-repeat: no-repeat;
 }
 .overdueTask{
   width:30px;
   height:30px;
-background-image: url('https://github.com/sivaramp1991/react-dwaiwv/blob/master/images/taskassigned-icon.jpg?raw=true');
+background-image: url('https://github.com/sivaramp1991/react-dwaiwv/blob/master/images/sandtimer-icon121.jpg?raw=true');
 }
 .timeEstimated{
   top: 215px;
