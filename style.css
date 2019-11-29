@@ -1,0 +1,24 @@
+h1, p {
+  font-family: Lato;
+}
+
+.overviewContainer{
+width:400px;
+height:250px;
+border: 1px rgb(202, 198, 198) solid;
+}
+
+.taskbreak5{
+  position: absolute;
+width: 400px;
+height: 1px; 
+background: rgb(202, 198, 198);
+top: 200px;
+}
+.taskbreak1{
+position: absolute;
+width: 1px;
+height: 192px; 
+background: rgb(202, 198, 198);
+left: 165px;
+}
