@@ -1,3 +1,6 @@
+#root{
+  font-family: 'Poppins', sans-serif
+}
 h1, p {
   font-family: Lato;
 }
@@ -14,9 +17,44 @@ background-size: cover;
 background-repeat: no-repeat;
 }
 .overdueTask{
+  top:35px;
+  left:190px;
+  width:30px;
+  height:30px;
+background-image: url('https://github.com/sivaramp1991/react-dwaiwv/blob/master/images/clock-outline.png?raw=true');
+}
+.assignedTask{
+  top:90px;
+  left:190px;
+  width:30px;
+  height:30px;
+background-image: url('https://github.com/sivaramp1991/react-dwaiwv/blob/master/images/taskassigned-icon1.jpg?raw=true');
+}
+.inQueueTask{
+  top:140px;
+  left:190px;
   width:30px;
   height:30px;
 background-image: url('https://github.com/sivaramp1991/react-dwaiwv/blob/master/images/sandtimer-icon121.jpg?raw=true');
+}
+
+.overdueTaskLabel{
+  left: 230px;
+    position: fixed;
+    font-size: 20px;
+    color:red;
+}
+.assignedTaskLabel{
+  left: 230px;
+    position: fixed;
+    font-size: 20px;
+    color:blue;
+}
+.inQueueTaskLabel{
+  left: 230px;
+    position: fixed;
+    font-size: 20px;
+    color:green;
 }
 .timeEstimated{
   top: 215px;
@@ -79,7 +117,7 @@ left: 165px;
   top:50px;
   left: 55px;
   font-size: 60px;
-  font-family: Times New Roman;
+  /* font-family: Times New Roman; */
   color: rgb(0, 0, 0);
 }
 .allTask{
