@@ -8,13 +8,20 @@ height:250px;
 border: 1px rgb(202, 199, 199) solid;
 
 }
+.task-icon{
+position: absolute;
+background-size: contain;
+background-repeat: no-repeat;
+}
 .overdueTask{
-  position: absolute;
-  width:60px;
-  height:60px;
-  background-size: contain;
-  background-repeat: no-repeat;
-background-image: url('https://github.com/sivaramp1991/react-dwaiwv/blob/master/images/clock-icon.jpg?raw=true');
+  width:30px;
+  height:30px;
+background-image: url('https://github.com/sivaramp1991/react-dwaiwv/blob/master/images/taskoverdueclock-icon.jpg?raw=true');
+}
+.timeEstimated{
+  width:30px;
+  height:30px;
+background-image: url('https://github.com/sivaramp1991/react-dwaiwv/blob/master/images/clock-outline.png?raw=true');
 }
 
 .taskbreak5{
