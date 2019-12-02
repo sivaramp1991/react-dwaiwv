@@ -1,8 +1,20 @@
 #root{
-  font-family: 'Poppins', sans-serif
+  font-family: 'Poppins', sans-serif;
 }
-h1, p {
-  font-family: Lato;
+.allTaskCount{
+  position: absolute;
+  top:50px;
+  left: 55px;
+  font-size: 60px;
+  /* font-family: Times New Roman; */
+  color: #4b4e58;
+}
+.allTask{
+  position: absolute;
+  top:120px;
+  left: 50px;
+  font-size: 30px;
+  color: grey;
 }
 
 .overviewContainer{
@@ -18,43 +30,43 @@ background-repeat: no-repeat;
 }
 .overdueTask{
   top:35px;
-  left:190px;
+  left:200px;
   width:30px;
   height:30px;
 background-image: url('https://github.com/sivaramp1991/react-dwaiwv/blob/master/images/clock-outline.png?raw=true');
 }
 .assignedTask{
   top:90px;
-  left:190px;
+  left:200px;
   width:30px;
   height:30px;
 background-image: url('https://github.com/sivaramp1991/react-dwaiwv/blob/master/images/taskassigned-icon1.jpg?raw=true');
 }
 .inQueueTask{
   top:140px;
-  left:190px;
+  left:200px;
   width:30px;
   height:30px;
 background-image: url('https://github.com/sivaramp1991/react-dwaiwv/blob/master/images/sandtimer-icon121.jpg?raw=true');
 }
 
 .overdueTaskLabel{
-  left: 230px;
+  left: 250px;
     position: fixed;
     font-size: 20px;
-    color:red;
+    color:#f58484;
 }
 .assignedTaskLabel{
-  left: 230px;
+  left: 250px;
     position: fixed;
     font-size: 20px;
-    color:blue;
+    color:#62aecc;
 }
 .inQueueTaskLabel{
-  left: 230px;
+  left: 250px;
     position: fixed;
     font-size: 20px;
-    color:green;
+    color:#6fda6f;
 }
 .timeEstimated{
   top: 215px;
@@ -67,13 +79,13 @@ background-image: url('https://github.com/sivaramp1991/react-dwaiwv/blob/master/
 .label1{
   left: 96px;
     position: fixed;
-    font-size: 25px;
+    font-size: 20px;
     color: grey
 }
 .label2{
   left: 290px;
     position: fixed;
-    font-size: 25px;
+    font-size: 20px;
     color: orange
 }
 
@@ -112,18 +124,3 @@ top:115px;
 left: 165px;
 }
 
-.allTaskCount{
-  position: absolute;
-  top:50px;
-  left: 55px;
-  font-size: 60px;
-  /* font-family: Times New Roman; */
-  color: rgb(0, 0, 0);
-}
-.allTask{
-  position: absolute;
-  top:120px;
-  left: 50px;
-  font-size: 30px;
-  color: grey;
-}
